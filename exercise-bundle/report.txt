@@ -1,0 +1,5 @@
+Maximum score: 98
+
+Minimum score: 13
+
+Average score: 75

@@ -16,7 +16,8 @@ hero_list = ["Hulk", "Thor"]
 
 with open("team.txt", "w") as f:
     for item in hero_list:
-        f.write("%s\n" % item)
+        f.write(f"{item}\n")
+
 
 ### 83
 print("\n===== 83 ======\n")
