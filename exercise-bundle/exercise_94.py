@@ -13,7 +13,7 @@ with open("scores.txt", "r") as f:
 max_score = None
 min_score = None
 average = None
-rate_sum = 0
+score_sum = 0
 total_of_scores = len(lines)
 
 for line in lines:
@@ -32,10 +32,10 @@ for line in lines:
 
 for line in lines:
     score = int(line)
-    rate_sum += score
+    score_sum += score
 
 
-average = rate_sum / total_of_scores
+average = score_sum / total_of_scores
 
 
 all_data = {

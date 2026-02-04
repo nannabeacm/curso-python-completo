@@ -1,0 +1,8 @@
+INFO: Server started
+INFO: OK
+ERROR: Fail
+INFO: User logged in
+ERROR: High memory usage
+INFO: OK
+ERROR: Database connection lost
+INFO: Server shutdown
