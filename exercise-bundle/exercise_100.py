@@ -1,14 +1,6 @@
 ### 100
 print("\n===== 100 ======\n")
 
-# 100. The Final Report
-# Difficulty: Omega Mission:
-
-# Generate a random list of 10 numbers (mission scores).
-# Filter out scores < 50.
-# Calculate average of remaining.
-# Write "Qualified: [List], Average: [Avg]" to final_results.txt. Skills: Random, Lists, Math, Files.
-
 import random
 import json
 
