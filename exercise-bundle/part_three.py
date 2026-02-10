@@ -132,9 +132,6 @@ print("\n===== 45 ======\n")
 
 infinity_stones = ["Stone", "Rock", "Stone", "Gem"]
 
-
-
-
 ### 45
 print("\n===== 45 ======\n")
 
