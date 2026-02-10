@@ -131,11 +131,6 @@ for item in char_list:
 print("\n===== 45 ======\n")
 
 infinity_stones = ["Stone", "Rock", "Stone", "Gem"]
-
-### 45
-print("\n===== 45 ======\n")
-
-infinity_stones = ["Stone", "Rock", "Stone", "Gem"]
 stone_count = 0
 
 for stone in infinity_stones:
