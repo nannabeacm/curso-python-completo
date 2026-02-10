@@ -146,13 +146,6 @@ file_append = "\nReturn to base"
 
 with open("log.txt", "a") as f:
     f.write(file_append)
-
-# 80. Safe Open (With)
-# Difficulty: Easy Mission: Use with open(...) to read log.txt. Print content. Example Output:
-
-# Mission Success
-# Return to base
-
 ### 80
 print("\n===== 80 ======\n")
 
