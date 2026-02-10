@@ -127,14 +127,6 @@ for item in char_list:
             print("Thanos found")
     break
 
-
-# 45. Infinity Stones
-# Difficulty: Hard Mission: 
-# Count how many times "Stone" appears in ["Stone", "Rock", "Stone", "Gem"] using a loop (not .count()).
-#  Example Output:
-
-# 2
-
 ### 45
 print("\n===== 45 ======\n")
 
