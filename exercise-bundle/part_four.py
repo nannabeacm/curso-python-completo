@@ -114,12 +114,6 @@ def fact(n):
 
 print(fact(5))
 
-# 60. Call for Backup
-# Difficulty: Medium Mission: Define backup(). Define fight(). fight calls backup. Call fight. Example Output:
-
-# Fighting...
-# Backup arrived!
-
 ### 60
 print("\n===== 60 ======\n")
 
