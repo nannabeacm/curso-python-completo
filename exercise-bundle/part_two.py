@@ -97,6 +97,7 @@ print("\n===== 26 ======\n")
 
 name = ""
 
+# if name != "" and name is not None:
 if name:
     print("Name exists.")
 else:
