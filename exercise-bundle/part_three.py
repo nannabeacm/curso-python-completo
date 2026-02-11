@@ -55,18 +55,20 @@ number_count = 0
 while number_count < 5:
     number_count += 1
     if number_count == 3:
-        continue
+        continue # why they didn't use "skip" instead?
     print(number_count)
 
 ### 37
 print("\n===== 37 ======\n")
 
+# Tradução intervalo ou faixa de valores
 for i in range(0, 21, 5):
     print(i)
 
 ### 38
 print("\n===== 38 ======\n")
 
+# implicitly is range(0, 2, 1)
 for x in range(2):
     for y in range(2):
         print(f"({x}, {y})")

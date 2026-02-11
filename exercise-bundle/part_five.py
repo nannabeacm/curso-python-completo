@@ -121,14 +121,14 @@ with open("mission.txt", "w") as f:
     f.write(mission_message)
 
 with open("mission.txt", "r") as f:
-    content = f.read()
+    content = f.read() # if mission.txt has 200 GB your machine will freeze OOM (out-of-memory)
     print(content)
 
 ### 77
 print("\n===== 77 ======\n")
 
 with open("lines.txt", "r") as f:
-    lines = f.readlines()
+    lines = f.readlines() # if mission.txt has 200 GB your machine will freeze OOM (out-of-memory)
     print(lines)
 
 ### 78

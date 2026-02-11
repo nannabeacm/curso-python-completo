@@ -1,7 +1,7 @@
 ### 46
 print("\n===== 46 ======\n")
 
-def assemble():
+def assemble() -> None:
     print("Avengers Assemble!")
 
 assemble()
@@ -9,7 +9,9 @@ assemble()
 ### 47
 print("\n===== 47 ======\n")
 
-def greet(name):
+def greet(name: str) -> None:
+    # if type(name) != 'str': 
+    #     raise("Not a string")
     print(f"Hello, {name}.")
 
 greet("Peter")
@@ -17,7 +19,7 @@ greet("Peter")
 ### 48
 print("\n===== 48 ======\n")
 
-def force(mass, accel):
+def force(mass: float, accel: float) -> float:
     force = mass * accel
     return force
 
@@ -38,6 +40,7 @@ def recruit(hero, sidekick="Robin"):
     print(f"{hero} and {sidekick}.")
 
 recruit("Batman")
+recruit("Batman", "Batgirl")
 
 ### 51
 print("\n===== 51 ======\n")
@@ -47,6 +50,7 @@ def plan(b="Attack", a="Defend"):
     print(b)
 
 plan()
+plan("Defend", "Block")
 
 ### 52
 print("\n===== 52 ======\n")
@@ -66,11 +70,11 @@ def check_pulse(bpm):
 
 print(check_pulse(72))
 
-### 54
+### 54 - The target audience is another developer
 print("\n===== 54 ======\n")
 
-def status():
-    """Prints status."""
+def status(name="off") -> None:
+    """Prints status. By default assumes 'off'."""
     
 print(status.__doc__)
 
@@ -83,7 +87,8 @@ def add_power(a: int, b: int) -> int:
 ### 56
 print("\n===== 56 ======\n")
 
-def team_up(*heroes):
+def team_up(**heroes):
+    """ Creates heroes teams. Pass any number of heroes as input."""
     for hero in heroes:
         print(hero)
 
@@ -92,6 +97,7 @@ team_up("Iron Man", "Thor", "Hulk")
 ### 57
 print("\n===== 57 ======\n")
 
+# kwargs can be understood as 'keys_with_arguments' and is a language convention.
 def profile(**kwargs):
     for key, value in kwargs.items():
         print(f"{key}: {value}")
@@ -107,6 +113,7 @@ print(double(5))
 ### 59
 print("\n===== 59 ======\n")
 
+# Recursividade
 def fact(n):
     if n == 1:
         return 1

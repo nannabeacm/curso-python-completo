@@ -1,6 +1,8 @@
 ### 81
 print("\n===== 81 ======\n")
 
+# .csv - Comma (,) separated values
+
 file_data = "Stark,100"
 
 with open("data.txt", "w") as f:
@@ -49,9 +51,13 @@ print("\n===== 86 ======\n")
 try:
     with open("ghost.txt", "r") as file:
         content = file.read()
+        # if not "," in line:
+        #     raise NotACSVFile
         print(content)
 except FileNotFoundError:
     print("File not found.")
+# except NotACSVFile:
+#     print("Hold on!!! Give me a CSV file!")
 
 ### 87
 print("\n===== 87 ======\n")
